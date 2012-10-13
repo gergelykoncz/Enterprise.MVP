@@ -1,0 +1,9 @@
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\Presenter\bin\Debug\Presenter.dll
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\Presenter\bin\Debug\Presenter.pdb
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\Presenter\obj\Debug\Presenter.dll
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\Presenter\obj\Debug\Presenter.pdb
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\Presenter\obj\Debug\Presenter.csprojResolveAssemblyReference.cache
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\Presenter\bin\Debug\BusinessLayer.dll
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\Presenter\bin\Debug\BusinessLayer.pdb
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\Presenter\bin\Debug\DataAccess.dll
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\Presenter\bin\Debug\DataAccess.pdb

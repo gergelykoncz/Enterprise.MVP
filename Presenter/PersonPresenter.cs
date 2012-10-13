@@ -13,6 +13,11 @@ namespace Presenter
             this._facade = facade;
         }
 
+        public void SearchPersons(string name)
+        {
+            View.Persons = _facade.GetPersonsWithName(name);
+        }
+
         protected override void Init()
         {
             View.Persons = _facade.GetAllPersons();

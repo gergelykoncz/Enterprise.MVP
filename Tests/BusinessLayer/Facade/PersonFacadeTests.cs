@@ -13,15 +13,16 @@ namespace Tests.BusinessLayer.Facade
     [TestFixture]
     public class PersonFacadeTests
     {
-        private List<Person> _persons = new List<Person>();
+        private List<Person> _persons;
         private PersonFacade _facade;
 
         [SetUp]
         public void SetUp()
         {
-            _persons.Add(new Person() { ID = 1, Name = "User1" });
-            _persons.Add(new Person() { ID = 2, Name = "User2" });
-            _persons.Add(new Person() { ID = 3, Name = "User3" });
+            _persons = new List<Person>();
+            _persons.Add(new Person() { ID = 1, Name = "FirstUser" });
+            _persons.Add(new Person() { ID = 2, Name = "AnotherUser" });
+            _persons.Add(new Person() { ID = 3, Name = "ThirdUser" });
 
             var repository = new Mock<IPersonRepository>();
             repository.Setup(x => x.GetAll()).Returns(_persons.AsEnumerable());
@@ -36,6 +37,29 @@ namespace Tests.BusinessLayer.Facade
             List<PersonDto> result = _facade.GetAllPersons().ToList();
 
             Assert.AreEqual(_persons.Count, result.Count);
+        }
+
+        [Test]
+        public void GetPersonsWithNameReturnsExactMatch()
+        {
+            List<PersonDto> result = _facade.GetPersonsWithName("FirstUser").ToList();
+
+            Assert.AreEqual(1, result.Count);
+            Assert.AreEqual("FirstUser", result.Single().Name);
+        }
+
+        [Test]
+        public void GetPersonsWithNameReturnsPartialMatches()
+        {
+            List<PersonDto> result = _facade.GetPersonsWithName("User").ToList();
+            Assert.AreEqual(3, result.Count);
+        }
+
+        [Test]
+        public void GetPersonsWithNameIsCaseInsensitive()
+        {
+            List<PersonDto> result = _facade.GetPersonsWithName("THirdUSER").ToList();
+            Assert.AreEqual("ThirdUser", result.Single().Name);
         }
     }
 }

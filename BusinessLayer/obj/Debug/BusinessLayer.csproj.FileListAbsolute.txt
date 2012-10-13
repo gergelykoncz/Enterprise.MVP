@@ -1,7 +1,7 @@
 c:\users\gergo\documents\visual studio 2010\Projects\WebUI\BusinessLayer\bin\Debug\BusinessLayer.dll
 c:\users\gergo\documents\visual studio 2010\Projects\WebUI\BusinessLayer\bin\Debug\BusinessLayer.pdb
-c:\users\gergo\documents\visual studio 2010\Projects\WebUI\BusinessLayer\obj\Debug\BusinessLayer.dll
-c:\users\gergo\documents\visual studio 2010\Projects\WebUI\BusinessLayer\obj\Debug\BusinessLayer.pdb
 c:\users\gergo\documents\visual studio 2010\Projects\WebUI\BusinessLayer\bin\Debug\DataAccess.dll
 c:\users\gergo\documents\visual studio 2010\Projects\WebUI\BusinessLayer\bin\Debug\DataAccess.pdb
 c:\users\gergo\documents\visual studio 2010\Projects\WebUI\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\BusinessLayer\obj\Debug\BusinessLayer.dll
+c:\users\gergo\documents\visual studio 2010\Projects\WebUI\BusinessLayer\obj\Debug\BusinessLayer.pdb

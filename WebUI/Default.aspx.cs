@@ -16,6 +16,11 @@ namespace WebUI
             Presenter.Init(this);
         }
 
+        protected void Search_Click(object sender, EventArgs e)
+        {
+            Presenter.SearchPersons(tbox_name.Text);
+        }
+
         public IEnumerable<BusinessLayer.Dto.PersonDto> Persons
         {
             set

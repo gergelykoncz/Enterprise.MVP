@@ -7,5 +7,6 @@ namespace BusinessLayer.Facade
     public interface IPersonFacade
     {
         IEnumerable<PersonDto> GetAllPersons();
+        IEnumerable<PersonDto> GetPersonsWithName(string name);
     }
 }

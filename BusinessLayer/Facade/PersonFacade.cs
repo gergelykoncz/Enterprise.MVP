@@ -22,5 +22,12 @@ namespace BusinessLayer.Facade
         {
             return _repository.GetAll().Select(x => _dtoBuilder.BuildDto(x));
         }
+
+        public IEnumerable<PersonDto> GetPersonsWithName(string name)
+        {
+            return _repository.GetAll()
+                .Where(x => x.Name.ToUpper().Contains(name.ToUpper()))
+                .Select(x => _dtoBuilder.BuildDto(x));
+        }
     }
 }

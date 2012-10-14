@@ -2,3 +2,4 @@ c:\users\gergo\documents\visual studio 2010\Projects\WebUI\DataAccess\bin\Debug\
 c:\users\gergo\documents\visual studio 2010\Projects\WebUI\DataAccess\bin\Debug\DataAccess.pdb
 c:\users\gergo\documents\visual studio 2010\Projects\WebUI\DataAccess\obj\Debug\DataAccess.dll
 c:\users\gergo\documents\visual studio 2010\Projects\WebUI\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Gergo\Documents\Visual Studio 2010\Projects\WebUI\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache

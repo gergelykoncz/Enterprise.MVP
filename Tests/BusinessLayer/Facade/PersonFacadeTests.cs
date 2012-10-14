@@ -20,9 +20,9 @@ namespace Tests.BusinessLayer.Facade
         public void SetUp()
         {
             _persons = new List<Person>();
-            _persons.Add(new Person() { ID = 1, Name = "FirstUser" });
-            _persons.Add(new Person() { ID = 2, Name = "AnotherUser" });
-            _persons.Add(new Person() { ID = 3, Name = "ThirdUser" });
+            _persons.Add(new Person() { Id = 1, Name = "FirstUser" });
+            _persons.Add(new Person() { Id = 2, Name = "AnotherUser" });
+            _persons.Add(new Person() { Id = 3, Name = "ThirdUser" });
 
             var repository = new Mock<IPersonRepository>();
             repository.Setup(x => x.GetAll()).Returns(_persons.AsEnumerable());
